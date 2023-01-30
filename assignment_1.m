@@ -3,7 +3,7 @@
 %function [] = assignment_1()
 function assignment_1
 % 
-% n = 1:1:4;
+n = 1:1:4;
 % x = -2*n;
 % stem(n, x, 'g')
 % xlabel('Samples')
