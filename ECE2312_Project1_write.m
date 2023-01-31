@@ -3,14 +3,14 @@
 
 Fs = 8000;
 
-% filename = 'fox_dog.wav';
-% audiowrite(filename, data1, Fs);
+filename = 'fox_dog.wav';
+audiowrite(filename, data1, Fs);
 
-% filename = 'ivory_buckles.wav';
-% audiowrite(filename, data2, Fs);
+filename = 'ivory_buckles.wav';
+audiowrite(filename, data2, Fs);
 
-% filename = 'opal_jewels.wav';
-% audiowrite(filename, data3, Fs);
+filename = 'opal_jewels.wav';
+audiowrite(filename, data3, Fs);
 
 [data1_wave, F1] = audioread('fox_dog.wav');
 window= hamming(512);

@@ -16,6 +16,7 @@ set(gca, 'clim', [-80, -20]);
 ylim([0 8000]);
 xlabel('Time (s)');
 ylabel('Frequency (Hz)');
+title("Fox and Dog");
 
 
 window= hamming(512);
@@ -31,6 +32,7 @@ set(gca, 'clim', [-80, -20]);
 ylim([0 8000]);
 xlabel('Time (s)');
 ylabel('Frequency (Hz)');
+title("Ivory Buckles");
 
 window= hamming(512);
 N.overlap = 256;
@@ -45,3 +47,4 @@ set(gca, 'clim', [-80, -20]);
 ylim([0 8000]);
 xlabel('Time (s)');
 ylabel('Frequency (Hz)');
+title("Opal Jewels");
