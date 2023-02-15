@@ -1,6 +1,8 @@
 % Rachel Donati and Lexi Krzywicki
 % Project 1
 
+% Creating Spectrograms from Data
+
 F_s = 8000;
 
 window= hamming(512);

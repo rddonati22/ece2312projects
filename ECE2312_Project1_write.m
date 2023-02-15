@@ -1,6 +1,7 @@
 % Rachel Donati and Lexi Krzywicki
 % Project 1
 
+% Converting Data into Wav Files
 Fs = 8000;
 
 filename = 'fox_dog.wav';
@@ -11,6 +12,11 @@ audiowrite(filename, data2, Fs);
 
 filename = 'opal_jewels.wav';
 audiowrite(filename, data3, Fs);
+<<<<<<< HEAD
+
+% Graphing Spectrogram
+=======
+>>>>>>> 3519fc10e1feab4e979e7b6e66e802bd8dac94c5
 
 [data1_wave, F1] = audioread('fox_dog.wav');
 window= hamming(512);

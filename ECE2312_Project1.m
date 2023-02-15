@@ -1,6 +1,8 @@
 % Rachel Donati and Lexi Krzywicki
 % Project 1
 
+% Recording Audio
+
 info = audiodevinfo;
 ID = info.input.ID;
 Fs = 8000;
