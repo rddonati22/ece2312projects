@@ -6,7 +6,7 @@
 Fs = 16000;
 
 time = (0:(1/Fs):8);
-freq = (time./8).*8000;
+freq = (time./8).*4000;
 chirp = sin(2*pi*freq.*time);
 soundsc(chirp, Fs)
 
