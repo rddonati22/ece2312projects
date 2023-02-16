@@ -1,7 +1,9 @@
 
 % Rachel Donati and Lexi Krzywicki
 
-Fs = 8000;
+% Playing, Saving, Graphing Sprectrogram of 0 - 8000 Hz sine tone
+
+Fs = 16000;
 
 time = (0:(1/Fs):8);
 freq = (time./8).*8000;
@@ -24,4 +26,4 @@ set(gca, 'clim', [-80, -20]);
 ylim([0 8000]);
 xlabel('Time (s)');
 ylabel('Frequency (Hz)');
-title("Sine Tone");
+title("Chirp");

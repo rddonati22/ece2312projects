@@ -1,15 +1,14 @@
 
 % Rachel Donati and Lexi Krzywicki
 
-[x,Fs] = audioread('fox_dog.wav');
-Fs = 8000;
-freq = 5000;
-soundsc(x, Fs);
-[y,Fs] = audioread('team4-sinetone.wav');
-y = y(1:64000, 1);
+% Playing, Saving, Graphing Sprectrogram of 5000 Hz + fox_dog sentence tone
 
-%time = (0:(1/Fs):8);
-%y = sin(2*pi*freq*time);
+[x,Fs] = audioread('fox_dog_2.wav');
+Fs = 16000;
+freq = 5000;
+[y,Fs] = audioread('team4-sinetone.wav');
+y = y(1:128000, 1);
+
 z = y + x;
 soundsc(z, Fs)
 
@@ -29,4 +28,4 @@ set(gca, 'clim', [-80, -20]);
 ylim([0 8000]);
 xlabel('Time (s)');
 ylabel('Frequency (Hz)');
-title("Sine Tone");
+title("Speech Chirp");

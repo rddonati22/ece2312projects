@@ -1,12 +1,10 @@
 
 % Rachel Donati and Lexi Krzywicki
 
-Fs = 8000;
-freq = 5000;
+% Playing, Saving, Graphing Sprectrogram of 5000 Hz sine tone
 
-% Play your sine tone using the sound function and comment on what you hear.  
-% Save to wav file
-% Plot the spectrogram of the sine tone
+Fs = 16000;
+freq = 5000;
 
 time = (0:(1/Fs):8);
 y = sin(2*pi*freq*time);
